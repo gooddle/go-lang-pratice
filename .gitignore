@@ -1,0 +1,14 @@
+# 환경변수/시크릿 - 절대 커밋하지 않음
+.env
+*.env
+!*.env.example
+
+# SQLite DB 파일
+*.db
+*.db-shm
+*.db-wal
+
+# Go
+*.exe
+*.test
+*.out
